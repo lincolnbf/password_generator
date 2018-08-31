@@ -28,8 +28,6 @@ void generateFile (string pass, string filename){
     outfile.close();
 }
 
-using namespace std;
-
 int main()
 {
     unsigned size_password;
@@ -45,7 +43,7 @@ int main()
         cout << "Deseja gerar o arquivo contendo a senha? [S/N]\n";
         cin >> option;
         if (option == 'S' or option == 's'){
-            cout << "Digite o arquivo de saída: ";
+            cout << "Digite o arquivo de saÃ­da: ";
             cin >> filename;
             generateFile(password,filename);
         }
